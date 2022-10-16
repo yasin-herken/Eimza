@@ -61,7 +61,7 @@ function App() {
       isLoaded
     ]
   );
-  return (
+  return isLoaded &&(
     <React.Fragment>
       <Header />
       <Hero />
