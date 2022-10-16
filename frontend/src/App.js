@@ -52,7 +52,7 @@ function App() {
 
   useEffect(
     () => {
-
+      console.log(isLoaded)
       if (!isLoaded) {
         return;
       }
@@ -61,7 +61,7 @@ function App() {
       isLoaded
     ]
   );
-  return isLoaded &&(
+  return (
     <React.Fragment>
       <Header />
       <Hero />
