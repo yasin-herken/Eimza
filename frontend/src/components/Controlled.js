@@ -3,7 +3,6 @@ import Popup from 'reactjs-popup';
 import emailjs from '@emailjs/browser';
 
 const ControlledPopup = () => {
-    const [mail, setMail] = useState(null)
     const [open, setOpen] = useState(false);
     const closeModal = () => setOpen(false);
     const form = useRef(null)
