@@ -1,21 +1,21 @@
 import React from 'react'
-
+import {Link} from "react-router-dom";
 const Header = () => {
     return (
         <React.Fragment>
             {/* ======= Header ======= */}
             <header id="header" className="fixed-top ">
                 <div className="container d-flex align-items-center">
-                    <h1 className="logo me-auto"><a href="index.html">E İmza</a></h1>
+                    <h1 className="logo me-auto"><Link to="index.html">E İmza</Link></h1>
                     {/* Uncomment below if you prefer to use an image logo */}
-                    {/* <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>*/}
+                    {/* <Link to="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></Link>*/}
                     <nav id="navbar" className="navbar">
                         <ul>
-                            <li><a className="nav-link scrollto active" href="#hero">Ana Sayfa</a></li>
-                            <li><a className="nav-link scrollto" href="#about">Hakkımızda</a></li>
-                            <li><a className="nav-link scrollto" href="#services">Servisler</a></li>
-                            <li><a className="nav-link scrollto" href="#pricing">Ücretlendirme</a></li>
-                            <li><a className="nav-link scrollto" href="#contact">İletişim</a></li>
+                            <li><Link className="nav-link scrollto active" to="#hero">Ana Sayfa</Link></li>
+                            <li><Link className="nav-link scrollto" to="#about">Hakkımızda</Link></li>
+                            <li><Link className="nav-link scrollto" to="#services">Servisler</Link></li>
+                            <li><Link className="nav-link scrollto" to="#pricing">Ücretlendirme</Link></li>
+                            <li><Link className="nav-link scrollto" to="#contact">İletişim</Link></li>
                         </ul>
                         <i className="bi bi-list mobile-nav-toggle" />
                     </nav>{/* .navbar */}

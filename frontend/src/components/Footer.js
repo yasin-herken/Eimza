@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const Footer = () => {
     return (
         <React.Fragment>
@@ -20,27 +20,27 @@ const Footer = () => {
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Hızlı Menü</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#hero">Ana Sayfa</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#about">Hakkımızda</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#services">Servisler</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#pricing">Ücretlendirme</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#contact">İletişim</a></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#hero">Ana Sayfa</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#about">Hakkımızda</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#services">Servisler</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#pricing">Ücretlendirme</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#contact">İletişim</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Teknik Destek</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">Hafta içi 09:00 - 18:00</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">Cumartesi günleri 09:00 - 17:00</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">Telefon: +90 530 896 18 03</a></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">Hafta içi 09:00 - 18:00</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">Cumartesi günleri 09:00 - 17:00</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">Telefon: +90 530 896 18 03</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-3 col-md-6 footer-links">
                                 <h4>Servislerimiz</h4>
                                 <ul>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">E-İmza</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">E-Fatura</a></li>
-                                    <li><i className="bx bx-chevron-right" /> <a href="#">KEP (Kayıtlı Elektronik Posta)</a></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">E-İmza</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">E-Fatura</Link></li>
+                                    <li><i className="bx bx-chevron-right" /> <Link to="#">KEP (Kayıtlı Elektronik Posta)</Link></li>
                                 </ul>
                             </div>
                         </div>

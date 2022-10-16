@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Main from './components/Main';
+import {Link} from "react-router-dom"
 const scripts = [
   "./assets/js/main.js"
 ];
@@ -66,7 +67,7 @@ function App() {
       <Hero />
       <Main />
       <Footer />
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <Link to="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></Link>
     </React.Fragment>
   );
 }

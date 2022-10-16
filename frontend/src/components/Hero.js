@@ -1,6 +1,7 @@
 import React from 'react'
-
+import {Link} from "react-router-dom"
 const Hero = () => {
+    
     return (
         <React.Fragment>
             {/* ======= Hero Section ======= */}
@@ -11,8 +12,8 @@ const Hero = () => {
                             <h1>Better Solutions For Your Business</h1>
                             <h2>We are team of talented designers making websites with Bootstrap</h2>
                             <div className="d-flex justify-content-center justify-content-lg-start">
-                                <a href="#about" className="btn-get-started scrollto">Get Started</a>
-                                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox btn-watch-video"><i className="bi bi-play-circle" /><span>Watch Video</span></a>
+                                <Link to="#about" className="btn-get-started scrollto">Get Started</Link>
+                                <Link to="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="glightbox btn-watch-video"><i className="bi bi-play-circle" /><span>Watch Video</span></Link>
                             </div>
                         </div>
                         <div className="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay={200}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Popup from 'reactjs-popup';
+import {Link} from "react-router-dom"
 import 'reactjs-popup/dist/index.css';
 import ControlledPopup from './Controlled';
 const Main = () => {
@@ -55,7 +55,7 @@ const Main = () => {
                                     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                                     culpa qui officia deserunt mollit anim id est laborum.
                                 </p>
-                                <a href="#" className="btn-learn-more">Learn More</a>
+                                <Link to="#" className="btn-learn-more">Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -70,28 +70,28 @@ const Main = () => {
                             <div className="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay={100}>
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bxl-dribbble" /></div>
-                                    <h4><a href>Aktivasyon/ Bloke Kaldırma</a></h4>
+                                    <h4><Link to="#">Aktivasyon/ Bloke Kaldırma</Link></h4>
                                     <p>Yukarıdaki resme tıklayarak indirilecek uygulamamız sayesinde şifrenizi aktif tutabilirsiniz.</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay={200}>
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-file" /></div>
-                                    <h4><a href>Uzak Masaüstü Destek</a></h4>
+                                    <h4><Link to="#">Uzak Masaüstü Destek</Link></h4>
                                     <p>Kurulum ve Teknik Destek ile ilgili uzak masaüstü bağlantısı kurabilirsiniz</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay={300}>
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-tachometer" /></div>
-                                    <h4><a href>Kampanyalarımız</a></h4>
+                                    <h4><Link to="#">Kampanyalarımız</Link></h4>
                                     <p>Sizin için oluşturulan kampanyalarımıza göz atabilir ve sizin için en uygun ürünü seçebilirsiniz</p>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay={400}>
                                 <div className="icon-box">
                                     <div className="icon"><i className="bx bx-layer" /></div>
-                                    <h4><a href>Teklif İsteyin</a></h4>
+                                    <h4><Link to="#">Teklif İsteyin</Link></h4>
                                     <p>Toplu alımlarınız için teklif formumuzu doldurun teklifimizi hızlı bir şekilde iletelim</p>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <a href="#" className="buy-btn">Hemen Başvuru</a>
+                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -138,7 +138,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <a href="#" className="buy-btn">Hemen Başvuru</a>
+                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -152,7 +152,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <a href="#" className="buy-btn">Hemen Başvuru</a>
+                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -166,7 +166,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <a href="#" className="buy-btn">Hemen Başvuru</a>
+                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -180,7 +180,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <a href="#" className="buy-btn">Hemen Başvuru</a>
+                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
                                 </div>
                             </div>
                         </div>
@@ -206,11 +206,11 @@ const Main = () => {
                                         <h4>Telefon:</h4>
                                         <p>+90 530 896 18 03</p>
                                     </div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.31868150564875!2d32.82416032793913!3d39.894417857026944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345f61e59a809%3A0x5d089800f720a7dd!2zQcWfYcSfxLEgw5Z2ZcOnbGVyLCAxMzIyLiBDZC4gTm86NzcgRDoxNSwgMDY0NjAgw4dhbmtheWEvQW5rYXJh!5e0!3m2!1sen!2str!4v1665919494028!5m2!1sen!2str" frameBorder={0} style={{ border: 0, width: '100%', height: '290px' }} allowFullScreen></iframe>
+                                    <iframe title='ankara' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.31868150564875!2d32.82416032793913!3d39.894417857026944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345f61e59a809%3A0x5d089800f720a7dd!2zQcWfYcSfxLEgw5Z2ZcOnbGVyLCAxMzIyLiBDZC4gTm86NzcgRDoxNSwgMDY0NjAgw4dhbmtheWEvQW5rYXJh!5e0!3m2!1sen!2str!4v1665919494028!5m2!1sen!2str" frameBorder={0} style={{ border: 0, width: '100%', height: '290px' }} allowFullScreen></iframe>
                                 </div>
                             </div>
                             <div className="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                                <form action="forms/contact.php" method="post" role="form" className="php-email-form">
+                                <form action="#" className="php-email-form">
                                     <div className="row">
                                         <div className="form-group col-md-6">
                                             <label htmlFor="name">Ad Soyad:</label>
