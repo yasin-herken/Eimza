@@ -126,7 +126,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
+                                    <ControlledPopup />
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -138,7 +138,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
+                                    <ControlledPopup />
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -152,7 +152,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
+                                    <ControlledPopup />
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -166,7 +166,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
+                                    <ControlledPopup />
                                 </div>
                             </div>
                             <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
@@ -180,7 +180,7 @@ const Main = () => {
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
                                     </ul>
-                                    <Link to="#" className="buy-btn">Hemen Başvuru</Link>
+                                    <ControlledPopup />
                                 </div>
                             </div>
                         </div>
