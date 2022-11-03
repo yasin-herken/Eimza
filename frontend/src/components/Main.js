@@ -21,8 +21,6 @@ const Main = () => {
                                     <li><i className="ri-check-double-line" />Bilgi güvenliğinin elektronik ortamlarda da sürdürebilir olmasını sağlamaktayız.</li>
                                     <li><i className="ri-check-double-line" />Hem bireysel hem de kurumsal sertifika, elektronik imza hizmetlerimizle başarılı çalışmalar içerisinde yer almaktayız. </li>
                                     <li><i className="ri-check-double-line" />Birey ve kurumların, elektronik ortamlarda işini kolaylaştırmayı başaracak çözümler sunmaktayız.</li>
-                                    <p style={{ fontWeight: "bold", marginTop: "6px" }}>Vizyonumuz:</p>
-                                    <li><i className="ri-check-double-line" />Gelişen dijital çağda Türkiye’nin e-dönüşümle tanışmasına öncülük ederek çağımızın gereksinimlerini müşterilerimize aktarıyoruz.</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6 pt-4 pt-lg-0">
@@ -33,8 +31,6 @@ const Main = () => {
                                     <li><i className="ri-check-double-line" /> Hızlı ve güvenilir üretim yapan, ESHS’ler arasında yer almanın gururunu yaşamaktayız.</li>
                                     <li><i className="ri-check-double-line" />Kanunların istediği şartları taşıyan, kurum ve kuruluşların proje çözümlemesine yardımcı olacak hizmetlere yer vermekteyiz.</li>
                                     <li><i className="ri-check-double-line" /> Teknolojiyi en doğru ve güvenli yoldan kullanılması amacıyla, güçlü alt yapı sistemleri oluşturmaktayız.</li>
-                                    <p style={{ fontWeight: "bold", marginTop: "6px   " }}>Misyonumuz</p>
-                                    <li><i className="ri-check-double-line" />Amacımız tüm Türkiye geneli e-dönüşüm sürecine katkı sunabilmektir.</li>
                                 </ul>
                                 {/* <Link to="#" className="btn-learn-more">Learn More</Link> */}
                             </div>
