@@ -1,36 +1,11 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import 'reactjs-popup/dist/index.css';
 import ControlledPopup from './Controlled';
 const Main = () => {
     return (
         <React.Fragment>
             <main id="main">
-                {/* ======= Cliens Section ======= */}
-                <section id="cliens" className="cliens section-bg">
-                    <div className="container">
-                        <div className="row" data-aos="zoom-in">
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-1.png" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-2.png" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-3.png" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-4.png" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-5.png" className="img-fluid" alt="" />
-                            </div>
-                            <div className="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                                <img src="assets/img/clients/client-6.png" className="img-fluid" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </section>{/* End Cliens Section */}
                 {/* ======= About Us Section ======= */}
                 <section id="about" className="about">
                     <div className="container" data-aos="fade-up">
@@ -40,26 +15,66 @@ const Main = () => {
                         <div className="row content">
                             <div className="col-lg-6">
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua.
+                                    Güvenilir ve deneyimli elektronik sertifika, e- imza hizmet sağlayıcısı olarak faaliyetlerimizi sürdürmekteyiz.
                                 </p>
                                 <ul>
-                                    <li><i className="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                                    <li><i className="ri-check-double-line" /> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                                    <li><i className="ri-check-double-line" /> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+                                    <li><i className="ri-check-double-line" />Bilgi güvenliğinin elektronik ortamlarda da sürdürebilir olmasını sağlamaktayız.</li>
+                                    <li><i className="ri-check-double-line" />Hem bireysel hem de kurumsal sertifika, elektronik imza hizmetlerimizle başarılı çalışmalar içerisinde yer almaktayız. </li>
+                                    <li><i className="ri-check-double-line" />Birey ve kurumların, elektronik ortamlarda işini kolaylaştırmayı başaracak çözümler sunmaktayız.</li>
+                                    <p style={{ fontWeight: "bold", marginTop: "6px" }}>Vizyonumuz:</p>
+                                    <li><i className="ri-check-double-line" />Gelişen dijital çağda Türkiye’nin e-dönüşümle tanışmasına öncülük ederek çağımızın gereksinimlerini müşterilerimize aktarıyoruz.</li>
                                 </ul>
                             </div>
                             <div className="col-lg-6 pt-4 pt-lg-0">
                                 <p>
-                                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                    culpa qui officia deserunt mollit anim id est laborum.
+                                    Alt yapı ve test süreçlerinin üstesinden başarıyla gelerek, Bilgi Teknolojileri ve İletişim Kurumu tarafından onayı kabul görmüş bir hizmet sağlayıcısıyız.
                                 </p>
-                                <Link to="#" className="btn-learn-more">Learn More</Link>
+                                <ul>
+                                    <li><i className="ri-check-double-line" /> Hızlı ve güvenilir üretim yapan, ESHS’ler arasında yer almanın gururunu yaşamaktayız.</li>
+                                    <li><i className="ri-check-double-line" />Kanunların istediği şartları taşıyan, kurum ve kuruluşların proje çözümlemesine yardımcı olacak hizmetlere yer vermekteyiz.</li>
+                                    <li><i className="ri-check-double-line" /> Teknolojiyi en doğru ve güvenli yoldan kullanılması amacıyla, güçlü alt yapı sistemleri oluşturmaktayız.</li>
+                                    <p style={{ fontWeight: "bold", marginTop: "6px   " }}>Misyonumuz</p>
+                                    <li><i className="ri-check-double-line" />Amacımız tüm Türkiye geneli e-dönüşüm sürecine katkı sunabilmektir.</li>
+                                </ul>
+                                {/* <Link to="#" className="btn-learn-more">Learn More</Link> */}
                             </div>
                         </div>
                     </div>
                 </section>{/* End About Us Section */}
+                {/* ======= Skills Section ======= */}
+                <section id="skills" className="skills">
+                    <div className="container" data-aos="fade-up">
+                        <div className="row">
+                            <div className="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay={100}>
+                                <img src="assets/img/skills.png" className="img-fluid" alt="" />
+                            </div>
+                            <div className="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay={100}>
+                                <h3>Gerekli Teknolojiler</h3>
+                                <div className="skills-content" style={{ marginLeft: "50px" }}>
+                                    <h4>Akis Yönetici Paketleri</h4>
+                                    <p className="fst-italic">
+                                        <ul style={{ marginLeft: "60px" }}>
+                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x64-2.5.zip">Akis Yönetici Windows 64-Bit</Link></li>
+                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x86-2.5.zip">Akis Yönetici Windows 32-Bit</Link></li>
+                                        </ul>
+                                    </p>
+                                    <h4>Java</h4>
+                                    <p className='fts-italic'>
+                                        <ul style={{ marginLeft: "60px" }}>
+                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/jre-8u171-windows-i586.exe">Java JRE 8 Update 171</Link></li>
+                                        </ul>
+                                    </p>
+                                    <h4>Uzak Masaüstü Programı</h4>
+                                    <p className='fts-italic'>
+                                        <ul style={{ marginLeft: "60px" }}>
+                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AnyDesk.exe">Any Desk</Link></li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>{/* End Skills Section */}
                 {/* ======= Services Section ======= */}
                 <section id="services" className="services section-bg">
                     <div className="container" data-aos="fade-up">
@@ -105,10 +120,10 @@ const Main = () => {
                             <h2>Ücretlendirme</h2>
                         </div>
                         <div className="row">
-                            <div className="col-lg-6" data-aos="fade-up" data-aos-delay={100}>
+                            <div className="col-lg-4" data-aos="fade-up" data-aos-delay={100} style={{ marginBottom: "16px" }}>
                                 <div className="box">
                                     <h3>1 Yıllık e-İmza</h3>
-                                    <h4>365,00<sup>₺</sup> + KDV</h4>
+                                    <h4>395,00<sup>₺</sup> + KDV</h4>
                                     <ul>
                                         <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
@@ -117,10 +132,10 @@ const Main = () => {
                                     <ControlledPopup />
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={200}>
-                                <div className="box featured">
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={200} style={{ marginBottom: "16px" }}>
+                                <div className="box">
                                     <h3>2 Yıllık e-İmza</h3>
-                                    <h4>475,00<sup>₺</sup> + KDV</h4>
+                                    <h4>489,00<sup>₺</sup> + KDV</h4>
                                     <ul>
                                         <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
@@ -129,10 +144,10 @@ const Main = () => {
                                     <ControlledPopup />
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300} style={{ marginBottom: "16px" }}>
                                 <div className="box">
                                     <h3>3 Yıllık e-İmza</h3>
-                                    <h4>565,00<sup>₺</sup> + KDV</h4>
+                                    <h4>589,00<sup>₺</sup> + KDV</h4>
                                     <ul>
                                         <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
                                         <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
@@ -141,7 +156,45 @@ const Main = () => {
                                     <ControlledPopup />
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
+
+
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300} style={{ marginBottom: "16px" }}>
+                                <div className="box">
+                                    <h3><strong>Avukatlara Özel</strong> 3 Yıllık e-İmza</h3>
+                                    <h4>489,00<sup>₺</sup> + KDV</h4>
+                                    <ul>
+                                        <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
+                                    </ul>
+                                    <ControlledPopup />
+                                </div>
+                            </div>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300} style={{ marginBottom: "16px" }}>
+                                <div className="box">
+                                    <h3><strong>Bilirkişilere Özel</strong> 3 Yıllık e-İmza</h3>
+                                    <h4>489,00<sup>₺</sup> + KDV</h4>
+                                    <ul>
+                                        <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
+                                    </ul>
+                                    <ControlledPopup />
+                                </div>
+                            </div>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300} style={{ marginBottom: "16px" }}>
+                                <div className="box">
+                                    <h3><strong>Serbest Muhasebeci ve Mali Müşavirlere Özel</strong> 3 Yıllık e-İmza</h3>
+                                    <h4>489,00<sup>₺</sup> + KDV</h4>
+                                    <ul>
+                                        <li><i className="bx bx-check" /> Kart Okuyucu Dahil</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Kurulum</li>
+                                        <li><i className="bx bx-check" /> Ücretsiz Teknik Destek</li>
+                                    </ul>
+                                    <ControlledPopup />
+                                </div>
+                            </div>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300} style={{ marginBottom: "16px" }}>
                                 <div className="box">
                                     <h3>1 Yıllık Kep(Kayıtlı Elektronik Posta)</h3>
                                     <h4>325,00<sup>₺</sup> + KDV</h4>
@@ -155,7 +208,7 @@ const Main = () => {
                                     <ControlledPopup />
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
                                 <div className="box">
                                     <h3>2 Yıllık Kep(Kayıtlı Elektronik Posta)</h3>
                                     <h4>525,00<sup>₺</sup> + KDV</h4>
@@ -169,7 +222,7 @@ const Main = () => {
                                     <ControlledPopup />
                                 </div>
                             </div>
-                            <div className="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
+                            <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay={300}>
                                 <div className="box">
                                     <h3>3 Yıllık Kep(Kayıtlı Elektronik Posta)</h3>
                                     <h4>725,00<sup>₺</sup> + KDV</h4>

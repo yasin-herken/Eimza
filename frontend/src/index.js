@@ -8,11 +8,23 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Eimza from './pages/Eimza';
+import Kep from './pages/Kep';
+import Efatura from './pages/Efatura';
+import Portal from './pages/Portal';
+import Entegrator from './pages/Entegrator';
+import Eserbest from './pages/Eserbest';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}></Route>
+      <Route path="/eimza" element={<Eimza />}></Route>
+      <Route path="/kep" element={<Kep />}></Route>
+      <Route path="/efatura" element={<Efatura />}></Route>
+      <Route path="/portal" element={<Portal />}></Route>
+      <Route path="/entegrator" element={<Entegrator />}></Route>
+      <Route path="/eserbest" element={<Eserbest />}></Route>
     </Routes>
   </BrowserRouter>
 );
