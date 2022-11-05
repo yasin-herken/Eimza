@@ -50,20 +50,20 @@ const Main = () => {
                                     <h4>Akis Yönetici Paketleri</h4>
                                     <p className="fst-italic">
                                         <ul style={{ marginLeft: "60px" }}>
-                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x64-2.5.zip">Akis Yönetici Windows 64-Bit</Link></li>
-                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x86-2.5.zip">Akis Yönetici Windows 32-Bit</Link></li>
+                                            <li style={{ listStyleType: "initial" }}><a href="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x64-2.5.zip">Akis Yönetici Windows 64-Bit</a></li>
+                                            <li style={{ listStyleType: "initial" }}><a href="https://www.imza.group/wp-content/uploads/2015/12/AKIS-Yonetici-x86-2.5.zip">Akis Yönetici Windows 32-Bit</a></li>
                                         </ul>
                                     </p>
                                     <h4>Java</h4>
                                     <p className='fts-italic'>
                                         <ul style={{ marginLeft: "60px" }}>
-                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/jre-8u171-windows-i586.exe">Java JRE 8 Update 171</Link></li>
+                                            <li style={{ listStyleType: "initial" }}><a href="https://www.imza.group/wp-content/uploads/2015/12/jre-8u171-windows-i586.exe">Java JRE 8 Update 171</a></li>
                                         </ul>
                                     </p>
                                     <h4>Uzak Masaüstü Programı</h4>
                                     <p className='fts-italic'>
                                         <ul style={{ marginLeft: "60px" }}>
-                                            <li style={{ listStyleType: "initial" }}><Link to="https://www.imza.group/wp-content/uploads/2015/12/AnyDesk.exe">Any Desk</Link></li>
+                                            <li style={{ listStyleType: "initial" }}><a href="https://www.imza.group/wp-content/uploads/2015/12/AnyDesk.exe">Any Desk</a></li>
                                         </ul>
                                     </p>
                                 </div>
